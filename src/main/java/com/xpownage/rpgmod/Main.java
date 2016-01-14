@@ -19,7 +19,9 @@ public class Main {
 
 	@SidedProxy(modId = MODID, clientSide = "com.xpownage.rpgmod.ClientProxy", serverSide = "com.xpownage.rpgmod.ServerProxy")
 	public static CommonProxy proxy;
-
+	
+	//Blocks
+	
 	public static CustomBlock Runite_Ore;
 	public static CustomBlock Adamantite_Ore;
 	public static CustomBlock Rune_Essence_Ore;
@@ -28,11 +30,26 @@ public class Main {
 	public static CustomBlock Copper_Ore;
 	public static CustomBlock Mithril_Ore;
 	public static CustomBlock Silver_Ore;
+	
+	//Items
+	
 	public static CustomItem Runite;
 	public static CustomItem Bronze;
 	public static CustomItem Silver;
 	public static CustomItem Mithril;
 	public static CustomItem Adamantite;
+	
+	
+	//ItemOre 
+	
+	public static CustomItem RuniteOre; 
+	public static CustomItem AdamantiteOre; 
+	public static CustomItem Rune_EssenceOre;
+	public static CustomItem Pure_EssenceOre;
+	public static CustomItem TinOre;
+	public static CustomItem CopperOre; 
+	public static CustomItem MithrilOre;
+	public static CustomItem SilverOre;
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {

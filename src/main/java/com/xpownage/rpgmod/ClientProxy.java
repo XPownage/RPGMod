@@ -33,6 +33,19 @@ public class ClientProxy extends CommonProxy {
 		Main.Silver.RegisterRenderer("silver");
 		Main.Mithril.RegisterRenderer("mithril");
 
+		
+		// ItemOres
+		
+		Main.Rune_EssenceOre.RegisterRenderer("runeore");
+		Main.RuniteOre.RegisterRenderer("runiteore");
+		Main.AdamantiteOre.RegisterRenderer("adamantiteore");
+		Main.Pure_EssenceOre.RegisterRenderer("pureore");
+		Main.MithrilOre.RegisterRenderer("mithrilore");
+		Main.TinOre.RegisterRenderer("tinore");
+		Main.SilverOre.RegisterRenderer("silverore");
+	
+	
+	
 	}
 
 	@Override

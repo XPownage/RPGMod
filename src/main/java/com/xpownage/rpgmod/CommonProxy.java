@@ -52,6 +52,19 @@ public class CommonProxy {
 		Main.Silver = new CustomItem("silver", CreativeTabs.tabMaterials, 1);
 		Main.Mithril = new CustomItem("mithril", CreativeTabs.tabMaterials, 1);
 
+		//ItemOre
+		
+		Main.RuniteOre = new CustomItem("runiteore", CreativeTabs.tabMaterials, 1);
+		Main.AdamantiteOre = new CustomItem("adamantiteore", CreativeTabs.tabMaterials, 1);
+		Main.Rune_EssenceOre = new CustomItem("runeore", CreativeTabs.tabMaterials, 1);
+		Main.Pure_EssenceOre = new CustomItem("pureore", CreativeTabs.tabMaterials, 1);
+		Main.TinOre = new CustomItem("tinore", CreativeTabs.tabMaterials, 1);
+		Main.CopperOre = new CustomItem("copperore", CreativeTabs.tabMaterials, 1);
+		Main.SilverOre = new CustomItem("silverore", CreativeTabs.tabMaterials, 1);
+		Main.MithrilOre = new CustomItem("mithrilore", CreativeTabs.tabMaterials, 1);
+		
+		
+		
 	}
 
 	public void postInit(FMLPostInitializationEvent e) {
