@@ -39,7 +39,6 @@ public class Main {
 	public static CustomItem Mithril;
 	public static CustomItem Adamantite;
 	
-	
 	//ItemOre 
 	
 	public static CustomItem RuniteOre; 
